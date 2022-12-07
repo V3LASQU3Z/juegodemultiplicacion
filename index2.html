@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio juego</title>
+    <link rel="stylesheet" href="juego.css">
+</head>
+
+<body class="b2">
+    <h1>APRENDE A RESTAR <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-emoji-laughing-fill" viewBox="0 0 16 16">
+        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM7 6.5c0 .501-.164.396-.415.235C6.42 6.629 6.218 6.5 6 6.5c-.218 0-.42.13-.585.235C5.164 6.896 5 7 5 6.5 5 5.672 5.448 5 6 5s1 .672 1 1.5zm5.331 3a1 1 0 0 1 0 1A4.998 4.998 0 0 1 8 13a4.998 4.998 0 0 1-4.33-2.5A1 1 0 0 1 4.535 9h6.93a1 1 0 0 1 .866.5zm-1.746-2.765C10.42 6.629 10.218 6.5 10 6.5c-.218 0-.42.13-.585.235C9.164 6.896 9 7 9 6.5c0-.828.448-1.5 1-1.5s1 .672 1 1.5c0 .501-.164.396-.415.235z"/>
+      </svg></h1>
+    <h3>JUGANDO!!!</h3>
+    <div class="container">
+        <div class="izquierdo">
+            <div class="container-operacion">
+                <span id="suma">9 + 9 =</span>
+                <span class="resultado" id="resultado"> 18</span>
+            </div>
+            <span class="msj" id="msj">
+			 		
+			 </span>
+        </div>
+        <div class="derecha">
+            <span id="op1" class="opcion" onclick="controlarRespuesta(this)">18</span>
+            <span id="op2" class="opcion" onclick="controlarRespuesta(this)">17</span>
+            <span id="op3" class="opcion" onclick="controlarRespuesta(this)">8</span>
+        </div>
+    </div>
+
+    <script src="game2.js"></script>
+    <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-down" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+        <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+      </svg> </p>
+    <a href="index.html" target="_blank" class="regis">SUMA</a>
+    <a href="index3.html" target="_blank" class="regis">MULTIPLICA</a>
+    <a href="index4.html" target="_blank" class="regis">DIVIDE</a>
+</body>
+
+</html>
